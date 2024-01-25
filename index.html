@@ -1,0 +1,191 @@
+      
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        *
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background: rgb(133,89,136);
+background: linear-gradient(60deg, rgba(133,89,136,1) 0%, rgba(107,73,132,1) 21%, rgba(72,52,117,1) 75%, rgba(43,47,119,1) 100%);
+    background-size: cover;
+    animation: none;/*Disable animation for the background*/}
+
+@keyframes animateBg{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+span{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.1),0 0 0 8px rgba(255,255,255,0.1),0 0 20px rgba(255,255,255,0.1);
+    animation: animate 3s linear infinite;
+}
+span::before{
+    content:'';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg,#fff,transparent);
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(315deg) translateX(0);
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+span:nth-child(1){
+    top: 0;
+    right: 0;
+    left: initial;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+span:nth-child(2){
+    top: 0;
+    right: 80px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+span:nth-child(3){
+    top: 80;
+    right: 0px;
+    left: initial;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+}
+span:nth-child(4){
+    top: 0;
+    right: 180px;
+    left: initial;
+    animation-delay: 0.6s;
+    animation-duration: 1.5s;
+}
+span:nth-child(5){
+    top: 0;
+    right: 400px;
+    left: initial;
+    animation-delay: 0.8s;
+    animation-duration: 2.5s;
+}
+span:nth-child(6){
+    top: 0;
+    right: 600px;
+    left: initial;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+span:nth-child(7){
+    top: 300px;
+    right: 0px;
+    left: initial;
+    animation-delay: 1.2s;
+    animation-duration: 1.75s;
+}
+h1 {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    animation: none; /* Disable animation for the text */
+}
+p {
+position: relative;
+top: 7%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: #fff;
+animation: none; /*Disable animation for the text */
+}
+a {
+    color: rgb(249, 242, 145);
+}
+
+    </style>
+    <body>
+    <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            <h1>Welcome!
+            </h1>
+            <p> <br />
+                This website was created by a student who has no programming experience before and copied most of the codes but we
+                all start from somewhere haha...right? I payed with my sanity tho... <br />
+                If you follow the "story-discussion" on Discord, you probably have seen all these cool and interesting theories from
+                everybody. I thought it would be cool to write it down but also to read the summaries of the main story and side
+                stories. <br />
+                How does this work now. Easy: <br />
+                You have a theory? Then open google docs and write it down (please make sure it looks uniform/pretty/easy to read).
+                You also have some spare time? Maybe you can summarize a story. <br />
+                That's basically the whole concept. <br />
+                Also, if a theory is debunked, feel free to delete it^^ <br /> 
+                To all the people that take this oppoturnity to mess with us..you're not funny. Just <strong>DUMB</strong>. <br /> <br/>
+                ANYWAY have fun writing and may the the gatcha gods be with you!
+                <br /> <a href="https://docs.google.com/document/d/16-0Eb4VZSxojZ9WYx9gAu5x974DrHrIpuUjCR6BEjbs/edit?usp=sharing">
+                    <strong>Link: love&deepspace_google.docs </strong>
+                </a>
+                <br />
+                If you have suggestions for this website to make it even cuter, please write me either on my Discord or per mail.
+                <br /> <br />
+                
+                Contact infos: <br />
+                Discord: #kirsch6378 <br />
+                Email: gem.metzler2001@gmail.com
+                </p>
+    </section>
+        
+    </body>
+    
+    </html>
+</body>
+</html>
